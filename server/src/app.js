@@ -24,7 +24,7 @@ const limiter = rateLimit({
 
 const app = express();
 const corsOption = {
-  origin: [process.env.FRONTEND_URL],
+  origin: ['http://localhost:5173'],
 };
 
 // Global variable appRoot with base dirname
